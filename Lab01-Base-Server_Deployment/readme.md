@@ -1,8 +1,6 @@
 # Overview
 This lab documents the deployment of a base Windows Server environment in a virtualized setup. The goal is to prepare a clean, secure, and network ready server prior to installing enterprise roles such as Active Directory, DNS, and DHCP.
 
-This lab focuses on the deployment of a fresh installation.
-
 # Environment
 - Windows Server 2025 (Evaluation)
 - Desktop Experience
@@ -18,7 +16,7 @@ This lab focuses on the deployment of a fresh installation.
 - IP Configuration: Static
 
 # Objectives
-- Deploy a funcitonal Windows Server virtual machine
+- Deploy a functional Windows Server virtual machine
 - Apply initial system configuration and security baseline
 - Configure reliable network settings
 - Prepare the server for future role installation
@@ -31,6 +29,12 @@ This lab focuses on the deployment of a fresh installation.
 - Installed VMware Tools to enable optimized performance
 - Applied Windows Updates to the bring the system up to date
 - Verified Windows Defender and Firewall were enabled
-- Took a snapshot after base configuration to preserver a rollback point
+- Took a snapshot after base configuration to preserve a rollback point
   
 # Validation
+- The following checks were performed:
+  - Server boots without errors
+  - Network connectivity verified via ipconfig and ICMP testing
+  - Windows Update reports the system as fully up to date
+  - Remote Desktop connectivity confirmed
+  - Snapshot successfully created post-installation
