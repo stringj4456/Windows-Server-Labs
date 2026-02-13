@@ -16,3 +16,5 @@
 - IP Configuration: Static
   
 # Objectives
+- Deploy Active Directory Domain Services
+- Promote and configure the Domain Controller
