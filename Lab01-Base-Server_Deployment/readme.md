@@ -36,5 +36,4 @@ This lab documents the deployment of a base Windows Server environment in a virt
   - Server boots without errors
   - Network connectivity verified via ipconfig and ICMP testing
   - Windows Update reports the system as fully up to date
-  - Remote Desktop connectivity confirmed
   - Snapshot successfully created post-installation
