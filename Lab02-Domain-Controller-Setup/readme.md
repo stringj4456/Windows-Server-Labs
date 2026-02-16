@@ -18,6 +18,7 @@
 - Installed the ADDS role
 - Promoted the server to Domain Controller 
 - Created a new forest/domain: **testcorp.lab**
-- Verified DNS integration and ADUC console setup
 
 # Validation
+- Verified DNS integration and ADUC console setup
+- 
