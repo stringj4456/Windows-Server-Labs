@@ -15,13 +15,19 @@
 - DNS Server: Configured to point to the Domain Controller
   
 # Objectives
-- Join a Windows 11 client to the domain of the newly created Domain Controller
-
+- Configure DNS settings to allow proper domain resolution
+- Pre-stage a computer account in Active Directory
+- Delegate domain join permissions using least privilege principles
+- Successfully join the Windows 11 client to the domain
+- Validate secure domain authentication
+  
 # Implementation Summary
-- Changed DNS server settings on the client
-- Prestaged a domain join for the client
-- Delegated control of the **Computers** OU to a Domain Joiner account
-- 
+- Configured the client’s DNS server to point to the Domain Controller to enable name resolution
+- Created a dedicated Domain Joiner account within the Users OU
+- Delegated control of the Computers OU using the “Join a computer to the domain” permission set
+- Pre-staged the computer account in the Computers OU and assigned join permissions to the delegated account
+- Joined the Windows 11 client to the domain using the delegated credentials
+- Restarted the client to complete domain membership
 
 # Validation
 - 
