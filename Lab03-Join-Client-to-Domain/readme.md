@@ -30,4 +30,5 @@
 - Restarted the client to complete domain membership
 
 # Validation
+- Verified client domain membership via **Settings -> System -> About**
 - 
