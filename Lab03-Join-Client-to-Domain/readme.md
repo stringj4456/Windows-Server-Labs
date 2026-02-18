@@ -23,9 +23,9 @@
   
 # Implementation Summary
 - Configured the client’s DNS server to point to the Domain Controller
-- Created a dedicated Domain Joiner account within the Users OU
-- Delegated control of the Computers OU using the “Join a computer to the domain” permission set
-- Pre-staged the computer account in the Computers OU and assigned join permissions to the delegated account
+- Created separate OUs in ADUC for the users (**Lab Users**) and computers (**Lab Computers**)
+- Created a dedicated Domain Joiner account within the Lab Users OU
+- Pre-staged the computer account in the Lab Computers OU and assigned appropiate permissions to the delegated account
 - Joined the Windows 11 client to the domain using the delegated credentials
 - Restarted the client to complete domain membership
 
