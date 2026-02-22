@@ -30,5 +30,6 @@
 - Restarted the client to complete domain membership
 
 # Validation
-- Verified client domain membership via **Settings -> System -> About**
-- 
+- Validated DNS resolution using **nslookup**
+- Verified successful domain login using a domain user account
+- Ran **whoami /fqdn** to confirm domain membership
