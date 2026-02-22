@@ -30,6 +30,16 @@
 - Restarted the client to complete domain membership
 
 # Validation
-- Validated DNS resolution using **nslookup**
-- Verified successful domain login using a domain user account
-- Ran **whoami /fqdn** to confirm domain membership
+- Validated DNS name resolution to the domain controller using
+  ```
+  nslookup dc01.testcorp.lab
+  ```
+- Verified successful authentication by logging in with a domain user account
+- Confirmed the client is authenticated against the domain via:
+  ```
+  whoami /fqdn
+  ```
+- Verified the secure channel status using:
+  ```
+  Test-ComputerSecureChannel
+  ```
