@@ -30,7 +30,7 @@
 - Restarted the client to complete domain membership
 
 # Validation
-- Validated DNS name resolution to the domain controller using
+- Validated DNS name resolution to the domain controller using:
   ```
   nslookup dc01.testcorp.lab
   ```
@@ -43,3 +43,6 @@
   ```
   Test-ComputerSecureChannel
   ```
+
+# Lessons Learned
+- Prestaged domain joins require the joiner account to have the **Reset Password** permission on the computer object. Without it, the join fails because the machine account password cannot be reset
