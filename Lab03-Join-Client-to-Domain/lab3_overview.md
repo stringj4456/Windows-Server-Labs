@@ -46,3 +46,4 @@
 
 # Lessons Learned
 - Prestaged domain joins require the joiner account to have the **Reset Password** permission on the computer object. Without it, the join fails because the machine account password cannot be reset
+- 
