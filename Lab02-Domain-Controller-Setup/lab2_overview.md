@@ -1,5 +1,8 @@
 # Overview
-- This lab documents the configuration of a Domain Controller in a virtualized setup. The goal is to prepare a fully functional DC with all of the necessary services and features to allow client machines to join the domain. 
+- This lab documents the configuration of a Domain Controller within a virtualized environment
+- The objective of this lab is to deploy and configure a fully functional Domain Controller by installing and promoting Active Directory on Windows Server
+- The configuration includes enabling the necessary services, such as DNS, to support authentication, directory services, and domain functionality
+- Upon completion, the environment supports secure domain joins and centralized authentication for client machines.
 
 # Environment
 - Windows Server 2025 (Desktop Experience)

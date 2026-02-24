@@ -1,5 +1,5 @@
 # Overview
-This lab documents the deployment of a base Windows Server environment in a virtualized setup. The goal is to prepare a clean, secure, and network ready server prior to installing enterprise roles such as Active Directory, DNS, and DHCP.
+- This lab documents the deployment of a base Windows Server environment in a virtualized setup. The goal is to prepare a clean, secure, and network ready server prior to installing enterprise roles such as Active Directory, DNS, and DHCP.
 
 # Environment
 - Windows Server 2025 (Evaluation)
