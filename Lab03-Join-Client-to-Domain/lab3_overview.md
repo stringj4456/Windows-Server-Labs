@@ -45,5 +45,7 @@
   ```
 
 # Lessons Learned
+- A default (non-prestaged) domain join occurs when the computer object does not already exist in Active Directory. A prestaged domain join occurs when the computer object is manually created in advance within Active Directory
+- Default domain joins are simpler and automatically create computer objects, but provide less control over OU placement and delegation. Prestaged joins require additional setup and specific permissions, but offer tighter administrative control
 - Prestaged domain joins require the joiner account to have the **Reset Password** permission on the computer object. Without it, the join fails because the machine account password cannot be reset
-- 
+- The client must be configured to use the domain controller’s DNS server in order to successfully locate and join the domain
