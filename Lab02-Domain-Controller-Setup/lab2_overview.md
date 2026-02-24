@@ -18,9 +18,10 @@
 - Configure the Domain Controller and integrated DNS server to enable name resolution and support domain functionality for client machines
 
 # Implementation Summary
-- Installed the ADDS role
-- Promoted the server to Domain Controller 
-- Created a new forest/domain: **testcorp.lab**
+- Updated the server hostname from the default to reflect its role as a Domain Controller
+- Configured a static IP address to provide a stable network identity for the DC
+- Installed the Active Directory Domain Services role (AD DS) using Server Manager
+- Promoted the server to Domain Controller by creating a new forest and domain: **testcorp.lab**
 
 # Validation
 - Verified DNS integration and ADUC console setup
