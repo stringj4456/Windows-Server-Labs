@@ -14,8 +14,8 @@
 - IP Configuration: Static
   
 # Objectives
-- Deploy Active Directory Domain Services (ADDS)
-- Configure the Domain Controller and integrated DNS
+- Deploy Active Directory Domain Services (ADDS) to provide centralized authentication and directory services
+- Configure the Domain Controller and integrated DNS server to enable name resolution and support domain functionality for client machines
 
 # Implementation Summary
 - Installed the ADDS role
