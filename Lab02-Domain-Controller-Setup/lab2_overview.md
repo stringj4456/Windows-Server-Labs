@@ -24,5 +24,5 @@
 - Promoted the server to Domain Controller by creating a new forest and domain: **testcorp.lab**
 
 # Validation
-- Verified AD DS installation by ensuring the role appears in Server Manager and that the service is running in Services (services.msc)
-- 
+- Verified AD DS installation by ensuring the role appears in Server Manager and that the service is running in Services (**services.msc**)
+- Confirmed proper DNS configuration by reviewing DNS Manager and validating the existence of the domain’s forward lookup zone and the **_msdcs.testcorp.lab** zone
