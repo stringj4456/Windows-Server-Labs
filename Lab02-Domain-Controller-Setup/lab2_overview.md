@@ -14,7 +14,7 @@
 - IP Configuration: Static
   
 # Objectives
-- Deploy Active Directory Domain Services (ADDS) to provide centralized authentication and directory services
+- Deploy Active Directory Domain Services (AD DS) to provide centralized authentication and directory services
 - Configure the Domain Controller and integrated DNS server to enable name resolution and support domain functionality for client machines
 
 # Implementation Summary
@@ -24,5 +24,5 @@
 - Promoted the server to Domain Controller by creating a new forest and domain: **testcorp.lab**
 
 # Validation
-- Verified DNS integration and ADUC console setup
+- Verified AD DS installation by ensuring the role appears in Server Manager and that the service is running in Services (services.msc)
 - 
