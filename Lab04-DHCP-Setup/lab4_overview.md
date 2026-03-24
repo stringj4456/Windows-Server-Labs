@@ -20,10 +20,14 @@
 - Verify DHCP functionality by confirming that client machines are correctly receiving IP addresses from the server
 
 # Implementation Summary
-- 
+- Using the Domain Administrator account, authorized the DHCP  server in Active Directory
+- Created and configured a new DHCP scope to define the range of IP addresses that can be leased to client machines
+- Configured an exclusion range within the DHCP scope to prevent the server from assigning a specific subset of IP addresses
+- Added the Default Gateway to the DHCP scope to allow clients to reach outside their local subnet
+- Configured the DNS server settings in the scope to ensure clients can resolve hostnames and locate Active Directory services
 
 # Validation
 - 
 
 # Lessons Learned
-- 
+- Authorization ensures that the DHCP server is recognized as legitimate and can lease IP addresses to clients, preventing rogue or accidental DHCP servers from disrupting the network
