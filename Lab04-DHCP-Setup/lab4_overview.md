@@ -14,7 +14,10 @@
 - IP Configuration: Static
     
 # Objectives
--
+- Install and configure the DHCP role on the Domain Controller
+- Authorize the DHCP server within Active Directory
+- Create and configure a DHCP scope including IP address range, subnet mask, gateway, and DNS settings
+- Verify DHCP functionality by confirming that client machines are correctly receiving IP addresses from the server
 
 # Implementation Summary
 - 
