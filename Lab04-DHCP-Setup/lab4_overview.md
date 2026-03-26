@@ -36,4 +36,5 @@
 
 # Lessons Learned
 - Authorization ensures that the DHCP server is recognized as legitimate and can lease IP addresses to clients, preventing rogue or accidental DHCP servers from disrupting the network
-- 
+- Hypervisors like VMware can automatically provide DHCP on certain network types (e.g., NAT, host-only). These services must be disabled or avoided to ensure clients receive their addresses from the correct DHCP server
+- Windows services that run within a shared **svchost.exe** process must use the same logon account, as the process operates under a single security context. The DHCP Server service was configured with a different account than other services in its host group, causing it to fail to start. Reconfiguring the service to use the default Local System account resolved the issue by aligning it with the required security context
