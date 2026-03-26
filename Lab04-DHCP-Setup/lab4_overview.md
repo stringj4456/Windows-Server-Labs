@@ -27,7 +27,13 @@
 - Configured the DNS server settings in the scope to ensure clients can resolve hostnames and locate Active Directory services
 
 # Validation
-- 
+- Using **ipconfig /all** on a client machine, the following was verified:
+  - A valid address within the specified range was automatically assigned to the client
+  - The listed DHCP server address matches that of the domain controller
+  - The listed Default Gateway matches what was configured in DHCP (003)
+- Confirmed successful lease renewal using **ipconfig /release** and **ipconfig /renew**
+- Validated client lease presence in the DHCP servers Address Leases list
 
 # Lessons Learned
 - Authorization ensures that the DHCP server is recognized as legitimate and can lease IP addresses to clients, preventing rogue or accidental DHCP servers from disrupting the network
+- 
