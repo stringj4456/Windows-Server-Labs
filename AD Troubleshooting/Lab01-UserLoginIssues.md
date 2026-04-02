@@ -9,6 +9,17 @@
 - The affected user was a new account that had not previously authenticated to the machine. Other users who had logged into the system before were still able to access it successfully.
 
 # Troubleshooting Steps
+1. **Authenticate Locally**
+   - Logged into the client machine using a local administrator account (```.\localadmin```) to ensure full system access independent of domain authentication
+
+2. **Test Internet Connectivity**
+    ```
+    ping 8.8.8.8
+    ```
+   - 100% reply rate
+   - Confirms that basic network connectivity is working for the client
+
+3. **Check Domain Controller Connectivity**
 
 # Resolution
 
