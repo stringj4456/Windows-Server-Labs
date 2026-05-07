@@ -23,3 +23,13 @@ This guide is meant to be a step by step walkthrough of a fresh installation of 
    For this example, we will select the **Windows Server 2025 Standard Evaluation (Desktop Experience)** option which will give us a proper desktop.
 
 <img src="lab1steps_imgs/images.png" width="80%" height="80%">
+
+5. Next, you'll be presented with a license agreement which you will need to **Accept** before proceeding.
+
+<img src="lab1steps_imgs/license.png" width="80%" height="80%">
+
+6. Here you will decide where you want to install Windows. If no disks appear, you may need to load/install drivers for your specific storage device. If this does not pertain to you, simply select which drive you would like to install Windows onto. You can also choose to partition the drive as well if need be.
+   
+   To keep things simple, we will just select **Disk 0** and proceed forward without partitioning. 
+
+<img src="lab1steps_imgs/install.png" width="80%" height="80%">
