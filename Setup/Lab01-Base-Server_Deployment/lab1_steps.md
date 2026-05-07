@@ -1,6 +1,14 @@
 # Overview
 This guide is meant to be a step by step walkthrough of a fresh installation of Windows Server 2025. The goal is to provide a clear overview of how to properly install the operating system and prepare it for use.
 
+# Background
+- The installation will be peformed via virtualization using a hypervisor and an ISO image
+- The hypervisor being used is VMware Workstation Pro
+  - The hypervisor can be downloaded for free from [here](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)
+  - Note that you must register for a Broadcom account in order to download VMware Workstation Pro
+- The ISO image for the Windows Server 2025 operating system comes directly from Microsoft, using their free, 180 day evaluation
+  - You can find more information and a download for the ISO image [here](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2025)
+  
 # Steps
 1. Upon booting into Windows, you will first be prompted to choose your preferred language settings. In this case I kept the default settings of **English (United States)**. Once done, click next
    
