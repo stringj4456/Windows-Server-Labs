@@ -13,5 +13,13 @@ This guide is meant to be a step by step walkthrough of a fresh installation of 
 3. At this stage, you will have the option to select whether you would like to perform an install or a repair. **Install Windows Server** will allow you proceed with a fresh install of the OS while **Repair my PC** allows you to run **Windows Startup Repair**, which is a builtin recovery tool that automatically fixes common issues preventing Windows from booting. 
    
    Since we are working on a fresh install, we will go ahead and select **Install Windows Server** and proceed with Next.
+   
+   Note that you must also check off the **I agree everything will be deleted including files, apps, and settings** before proceeding as a fresh install will overwrite data from a previous installation if present. 
 
 <img src="lab1steps_imgs/setup.png" width="80%" height="80%">
+
+4. At this step you will be presented with a list of available operating system editions contained within the ISO file to install. If you prefer a command line based environment, you'll want to stick with just the **Standard Evaluation**. If you wish to have a GUI with a desktop, you'll want to select a **Desktop Experience** option. 
+   
+   For this example, we will select the **Windows Server 2025 Standard Evaluation (Desktop Experience)** option which will give us a proper desktop.
+
+<img src="lab1steps_imgs/images.png" width="80%" height="80%">
