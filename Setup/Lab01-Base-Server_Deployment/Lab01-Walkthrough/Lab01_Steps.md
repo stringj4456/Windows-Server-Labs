@@ -87,6 +87,10 @@ At this stage we will set a static IP address for the machine. Since it will act
     
     <img src="Lab01Steps_imgs/change.png" width="80%" height="80%">
 
-3. You will be taken to the **Computer Name/Domain Changes** menu. In **Computer name**, change the name to your desired name. There is no universal naming conventions for DC's but it should be short and descriptive enough for clear identification. I decided to settle with **InfraDC-01** for this example. You can also make changes to the membership of **Workgroups** or other **Domains** as well but I stuck with the defaults in this case.
+3. You will be taken to the **Computer Name/Domain Changes** menu. In **Computer name**, change the name to your desired name. There is no universal naming conventions for DC's but it should be short and descriptive enough for clear identification. I decided to settle with **InfraDC-01** for this example. You can also make changes to the membership of **Workgroups** or other **Domains** as well but I stuck with the defaults in this case. Click **Ok** when done.
 
     <img src="Lab01Steps_imgs/cname.png" width="80%" height="80%">
+
+4. Once the name is changed, you can exit out of all the menus. You will be prompted to restart the machine as a hostname change requires a reboot. Upon logging back in and navigating back to **Server Manager**, the new hostname should appear. The hostname has now been successfully changed.
+
+    <img src="Lab01Steps_imgs/hostn.png" width="80%" height="80%">
