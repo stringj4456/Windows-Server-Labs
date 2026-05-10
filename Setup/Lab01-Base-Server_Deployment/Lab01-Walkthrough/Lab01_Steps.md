@@ -74,6 +74,19 @@ At this stage we will set a static IP address for the machine. Since it will act
 
 4. Now we'll set the actual static IP address. Click on **Use the following IP address:** and input the necessary information. Address information will differ depending on your environment but in a virtualized one like my own, there is much more leeway in choice. I opted for a **192.168.1.0/24** network in mine.
 
-    We'll also want to configure the DNS settings statically as well. Select **Use the following DNS server addresses:** and set the **Preferred DNS** as the same address you used for the DC from above. Its important that the DC points to itself as DNS will be installed on this machine as well later on. **Alternate DNS server** can be left blank. Click **Ok** to proceed.
+    We'll also want to configure the DNS settings statically as well. Select **Use the following DNS server addresses:** and set the **Preferred DNS** as the same address you used for the DC from above. Its important that the DC points to itself as DNS will be installed on this machine as well later on. **Alternate DNS server** can be left blank. Click **Ok** to proceed and exit out of all NIC setting menus. This covers static address assignment for the DC
     
     <img src="Lab01Steps_imgs/ipsettings.png" width="80%" height="80%">
+
+# Setting the Hostname
+1. Navigate to **Local Server** and click on **Computer name**. This will bring up the **System Properties** menu for the machine. Note that Windows automatically assigns a default hostname and mine is **WIN-663PLK1EU8G** in this example
+ 
+    <img src="Lab01Steps_imgs/hname.png" width="80%" height="80%">
+
+2. Select the **Change** option in **System Properties**. 
+    
+    <img src="Lab01Steps_imgs/change.png" width="80%" height="80%">
+
+3. You will be taken to the **Computer Name/Domain Changes** menu. In **Computer name**, change the name to your desired name. There is no universal naming conventions for DC's but it should be short and descriptive enough for clear identification. I decided to settle with **InfraDC-01** for this example. You can also make changes to the membership of **Workgroups** or other **Domains** as well but I stuck with the defaults in this case.
+
+    <img src="Lab01Steps_imgs/cname.png" width="80%" height="80%">
