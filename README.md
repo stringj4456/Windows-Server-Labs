@@ -1,3 +1,3 @@
 ## Windows-Server-Labs
 
-This is a repo containing various labs based around Windows Server. Each folder will represent a separate project.
+This is a repo containing various labs based around Windows Server. It will include guides and walkthroughs of a variety of projects. The goal here is to expand my knowledge of Windows Server environments with hands on experience.
