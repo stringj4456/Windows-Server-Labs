@@ -1,5 +1,5 @@
 # Overview
-This guide is meant to be a step by step walkthrough of a fresh installation of Windows Server 2025. The goal is to provide a clear overview of how to properly install the operating system and prepare it for use.
+This guide is meant to be a step by step walkthrough of a fresh installation of Windows Server 2025. The goal is to provide a clear overview of how to properly install the operating system and prepare it for use. Note that this guide only covers the actual installation of the OS and not the initial hypervisor steps.
 
 # Background
 - The installation will be peformed via virtualization using a hypervisor and an ISO image
