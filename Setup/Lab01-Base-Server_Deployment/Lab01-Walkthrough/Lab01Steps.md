@@ -94,3 +94,10 @@ At this stage we will set a static IP address for the machine. Since it will act
 4. Once the name is changed, you can exit out of all the menus. You will be prompted to restart the machine as a hostname change requires a reboot. Upon logging back in and navigating back to **Server Manager**, the new hostname should appear. The hostname has now been successfully changed.
 
     <img src="Lab01Steps_imgs/hostn.png" width="80%" height="80%">
+
+# Updating the OS
+1. Navigate to **Local Server** look for where it says **Windows Update**. This will tell you about the current update settings configured as well as when the last updates were installed.
+    <img src="Lab01Steps_imgs/update1.png" width="80%" height="80%">
+
+2. Clicking on the provided hyperlink will take you to the Windows Update menu, which will list out any updates that can be performed. As this is a new OS install, all updates shown here should be installed in order to get the OS to its most up to date version
+    <img src="Lab01Steps_imgs/update2.png" width="80%" height="80%">
