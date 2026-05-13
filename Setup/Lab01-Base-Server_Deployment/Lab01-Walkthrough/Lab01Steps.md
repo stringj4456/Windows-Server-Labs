@@ -1,5 +1,5 @@
 # Overview
-This guide is meant to be a step by step walkthrough of a fresh installation of Windows Server 2025. The goal is to provide a clear overview of how to properly install the operating system and prepare it for use. Note that this guide only covers the actual installation of the OS and not the initial hypervisor steps.
+This guide is meant to be a step by step walkthrough of a fresh installation of Windows Server 2025. The goal is to provide a clear overview of how to properly install the operating system and prepare it for use. This also includes configuring some core settings as well post installation. Note that this guide only covers the actual installation of the OS and not the initial hypervisor steps.
 
 # Background
 - The installation will be peformed via virtualization using a hypervisor and an ISO image
@@ -96,8 +96,8 @@ At this stage we will set a static IP address for the machine. Since it will act
     <img src="Lab01Steps_imgs/hostn.png" width="80%" height="80%">
 
 # Updating the OS
-1. Navigate to **Local Server** look for where it says **Windows Update**. This will tell you about the current update settings configured as well as when the last updates were installed.
+1. Navigate to **Local Server** and find **Windows Update**. This will tell you about the current update settings configured as well as when the last updates were installed. It will also tell you when the system last checked for updates.
     <img src="Lab01Steps_imgs/update1.png" width="80%" height="80%">
 
-2. Clicking on the provided hyperlink will take you to the Windows Update menu, which will list out any updates that can be performed. As this is a new OS install, all updates shown here should be installed in order to get the OS to its most up to date version
+2. Clicking on the provided hyperlink will take you to the Windows Update menu, which will list out any updates that can be performed. As this is a new OS install, all updates shown here should be installed in order to get the OS to its most up to date version.
     <img src="Lab01Steps_imgs/update2.png" width="80%" height="80%">
