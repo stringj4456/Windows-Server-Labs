@@ -24,10 +24,10 @@
 # Implementation Summary
 - Installed Windows Server using Desktop Experience
 - Created local Administrator account during setup
-- Renamed the server to reflect enterprise naming conventions
 - Configured a static IPv4 address to ensure consistent network identity
-- Installed VMware Tools to enable optimized performance
+- Renamed the server to reflect enterprise naming conventions
 - Applied Windows Updates to the bring the system up to date
+- Installed VMware Tools to enable optimized performance
 - Verified Windows Defender and Firewall were enabled
 - Took a snapshot after base configuration to preserve a rollback point
   
