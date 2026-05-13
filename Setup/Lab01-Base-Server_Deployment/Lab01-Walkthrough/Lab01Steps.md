@@ -1,5 +1,5 @@
 # Overview
-This guide is meant to be a step by step walkthrough of a fresh installation of Windows Server 2025. The goal is to provide a clear overview of how to properly install the operating system and prepare it for use. This also includes configuring some core settings as well post installation. Note that this guide only covers the actual installation of the OS and not the initial hypervisor steps.
+This guide is meant to be a step by step walkthrough of a fresh installation of Windows Server 2025. The goal is to provide a clear overview of how to properly install the operating system and prepare it for use. This also includes configuring and verifying some core settings post installation. Note that this guide only covers the actual installation of the OS and not the initial hypervisor steps.
 
 # Background
 - The installation will be peformed via virtualization using a hypervisor and an ISO image
@@ -101,3 +101,9 @@ At this stage we will set a static IP address for the machine. Since it will act
 
 2. Clicking on the provided hyperlink will take you to the Windows Update menu, which will list out any updates that can be performed. As this is a new OS install, all updates shown here should be installed in order to get the OS to its most up to date version.
     <img src="Lab01Steps_imgs/update2.png" width="80%" height="80%">
+
+# Installing VMware Tools
+Vmware Tools is a unique addition that can be installed with a guest VM. It is optional to install, but it can help boost performance. It is a package of drivers and utilities that help the guest OS communicate properly with the hypervisor. It gives an overall smoother experience and provides more integration with the host machine. If using VMware Workstation Pro, its definitely a recommended install.
+
+1. While logged into a guest OS, navigate to the VM tab on Workstation Pro and select the **Install VMware Tools** option
+    <img src="Lab01Steps_imgs/tool.png" width="80%" height="80%">
